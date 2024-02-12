@@ -7,7 +7,8 @@ Disallow: /temp/         # Evita que los robots accedan a la carpeta temporal
 Disallow: /cgi-bin/      # Evita que los robots accedan a scripts CGI
 
 
-Allow: /
+User-agent: Googlebot
+Disallow: /
 
 
 Sitemap: https://www.ejemplo.com/sitemap.xml
