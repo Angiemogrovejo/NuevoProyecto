@@ -1,10 +1,7 @@
 /# Archivo robots.txt para [Cibergirls]
 
 User-agent: *
-Disallow: /admin/        # Evita que los robots accedan a la carpeta de administración
-Disallow: /private/      # Evita que los robots accedan a información privada
-Disallow: /temp/         # Evita que los robots accedan a la carpeta temporal
-Disallow: /cgi-bin/      # Evita que los robots accedan a scripts CGI
+Disallow: /
 
 
 User-agent: Googlebot
@@ -12,4 +9,4 @@ Disallow: /
 
 
 
-Sitemap: https://www.ejemplo.com/sitemap.xml
+
